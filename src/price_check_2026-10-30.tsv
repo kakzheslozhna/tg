@@ -1,0 +1,55 @@
+# key	url-or-sku	price	city	name
+w100x100_pine	https://lemanapro.ru/product/brus-nestroganyy-100x100x3000-mm-hvoya-82017667/	1400	Курск 1330, Краснодар 1395, др. 1475–1688	Брус нестроганый 100×100×3000 мм хвоя
+w100x100_glulam	sku:81990138	1742	Воронеж, Екатеринбург, Уфа, Краснодар, Н.Новгород; СПб 3870	Брус сращенный 100×100×3000 мм хвоя сорт Экстра
+w100x100_larch	sku:14396157	881	Н.Новгород/Воронеж/Челябинск 881; подозрительно дёшево	Брусок строганый 100×100×3000 мм лиственница
+w150x150_pine	sku:85102666	1860	Москва 1860, СПб 1736, Уфа 1984	Брус нестроганый 150×150×3000 мм хвоя ФГИС ЛК
+w50x100_pine	https://lemanapro.ru/product/doska-nestroganaya-50x100x3000-mm-hvoya-fgis-lk-81947447/	555	Москва	Доска нестроганая 50×100×3000 мм хвоя ФГИС ЛК
+w50x150_pine	https://lemanapro.ru/product/doska-nestroganaya-50x150x3000-mm-hvoya-fgis-lk-81947448/	925	Киров; Москва не найдена	Доска нестроганая 50×150×3000 мм хвоя ФГИС ЛК
+w50x200_pine	sku:85544940	?	Пермь 458 (нереально)	Доска нестроганая 50×200×3000 мм хвоя
+p6060	https://lemanapro.ru/product/truba-profilnaya-60x60x2mm-3-m-15791001/	925	Москва	Труба профильная 60×60×2 мм 3 м
+p4040	https://lemanapro.ru/product/truba-profilnaya-40x40x2mm-3-m-13376760/	724	Москва	Труба профильная 40×40×2 мм 3 м
+p4020	https://lemanapro.ru/product/truba-profilnaya-40x20x2-mm-3-m-82157251/	412	Тверь	Труба профильная 40×20×2 мм 3 м
+p5050	https://lemanapro.ru/product/truba-profilnaya-50x50x2-mm-3-m-82157258/	775	Москва	Труба профильная 50×50×2 мм 3 м
+p6040	https://lemanapro.ru/product/truba-profilnaya-60x40x2-mm-3-m-82377586/	896	Краснодар	Труба профильная 60×40×2 мм 3 м
+p76	sku:91516695	1839	Москва, длина 2 м, не 3 м	Труба стальная Ювента Ø76×3×2000 мм
+stud16	https://lemanapro.ru/product/shpilka-rezbovaya-ocinkovannaya-stal-din-975-oc-16x1000-mm-90841120/	278	Киров 210, др. 278	Шпилька DIN 975 оцинк. 16×1000 мм
+stud20	https://lemanapro.ru/product/shpilka-rezbovaya-ocinkovannaya-stal-din-975-oc-20x1000-mm-90841124/	607	разные	Шпилька DIN 975 оцинк. 20×1000 мм
+rub	https://lemanapro.ru/product/ruberoid-rkp-350-verhniy-sloy-karton-15-m-82134497/	625	Москва, рулон 15 м²	Рубероид РКП-350, 15 м²
+rebar	https://lemanapro.ru/product/armatura-metallicheskaya-10-mm-a400-500s-3-m-82550588/	197	Челябинск, Волгоград	Арматура 10 мм А400/500С 3 м
+c20	https://lemanapro.ru/product/profnastil-s20-045-mm-1150x2000-mm-ral-8017-korichnevyy-82157378/	1298	Москва	Профнастил С20 0,45 мм 1150×2000 мм RAL 8017
+ridgeTile	https://lemanapro.ru/product/konek-ploskiy-60x230-mm-2-m-04-mm-ral-8017-korichnevyy-10009009/	634	Тверь 634, Барнаул 776	Конёк плоский 60×230 мм 2 м 0,4 мм RAL 8017
+ridgeC20	https://lemanapro.ru/product/konek-ploskiy-60x230-mm-2-m-04-mm-ral-8017-korichnevyy-10009009/	634	Тверь 634, Барнаул 776	Конёк плоский 60×230 мм 2 м 0,4 мм RAL 8017
+trimC20	?	575	Волгоград 575, Барнаул 606	Торцевая планка 90×90×2000 мм 0,4 мм RAL 8017
+trimTile	?	575	Волгоград 575, Барнаул 606	Торцевая планка 90×90×2000 мм 0,4 мм RAL 8017
+pTrimC8	https://lemanapro.ru/product/p-planka-dlya-profnastila-s8-20x30-mm-2-m-ral-8017-korichnevyy-13168080/	247	Тверь	П-планка для профнастила С8 20×30 мм 2 м RAL 8017
+tile	?	1788	Волгоград 1788, Краснодар 1727	Металлочерепица 0,45 мм 2250×1180 мм RAL 8017
+shingle	?	996	Москва, Оптима коричневая 3 м²	Гибкая черепица Shinglas Оптима 3 м²
+pc8	sku:89411715	5543	?, также Sotalight 89407833 6405, Kiwi 89412253 6786, 83612719 6213–6885	Поликарбонат сотовый 8 мм 2,1×6 м Rational прозрачный
+pcm	https://lemanapro.ru/product/polikarbonat-monolitnyy-profilirovannyy-s21-08-mm-2x1051-m-novattro-prozrachnyy-88976338/	1436	Киров 1436, Барнаул 1688	Поликарбонат монолитный С21 0,8 мм 2×1,051 м Novattro
+ondulin	?	?	Смарт DIY 760×1950 748–817	Ондулин Смарт 950×1950 мм
+deckLarch	?	?	не найдена цена	Террасная доска Дом дерева лиственница AB 3000×142×28 мм вельвет
+deck	sku:82676411	1075	Тверь 810–838, Череповец 1075, Челябинск 1188, Иркутск 1280	Доска террасная хвоя импрегнированная вельвет 28×140×3000 мм
+deckWpc	?	2322	не привязано к городу	Террасная доска ДПК CM Decking Vintage дуб 3000×140×25 мм
+euro	https://lemanapro.ru/product/shtaketnik-metallicheskiy-m-obraznyy-128-mm-2-m-odnostoronniy-ral-8017-korichnevyy-85395038/	210	Иваново, товар закончился; двусторонний 85395025: 152–212	Штакетник металлический M-образный 128 мм 2 м RAL 8017
+gasGlue	https://lemanapro.ru/product/kley-dlya-blokov-volma-blok-25-kg-12265073/	378	Москва	Клей для блоков Волма Блок 25 кг
+gasMastic	https://lemanapro.ru/product/mastika-bitumnaya-odnokomponentnaya-11153969/	1580	1580–2555 по городам	Мастика битумная однокомпонентная 18 кг
+anchorH	catalogue:https://lemanapro.ru/catalogue/vintovye-svai/	?	ВСК 57 Л200 1,5 м есть в Самаре, Ижевске; цена не найдена	Свая винтовая ВСК 57 Л200 1,5 м
+gravel	?	341	СПб, неуверенно	Щебень гранитный 20–40 мм 50 кг
+anchorH	sku:82630844	1298	Самара 1288, Саранск 1298, Ульяновск 1250–1427	Свая винтовая ВСК 57 Л200 1,5 м
+gasblock	sku:89378704	478	Хабаровск 478 (серый); 89365482 Иркутск 520, Хабаровск 566; Москва не найдена	Блок газобетонный D600 600×300×200 мм
+gutter	https://lemanapro.ru/product/zhelob-vodostochnyy-3-m-125-mm-cvet-korichnevyy-81931298/	1013	Москва 1013, Рязань 1247, Воронеж 1558	Желоб водосточный 3 м 125 мм коричневый (Интерпрофиль)
+downpipe	sku:81931341	1408	Москва 1408, Тверь 851	Труба водосточная 3 м 90 мм коричневая (Интерпрофиль)
+shingle	sku:87949171	835	Ярославль 835, Иваново 872, Барнаул 1611; Москва 996	Гибкая черепица Технониколь Оптима коричневый 3 м²
+concrete	https://lemanapro.ru/product/peskobeton-m300-kamennyy-cvetok-dobromes-40-kg-18478820/	323	Москва	Пескобетон М300 Каменный Цветок Добромес 40 кг
+conn6	catalogue:https://lemanapro.ru/catalogue/samorezy/shurup-gluhar/	9	Череповец 8,90 ₽/шт; Киров 5 ₽/шт	Шуруп-глухарь DIN 571 6×60 мм
+p6040	https://lemanapro.ru/product/truba-profilnaya-60x40x2-mm-3-m-82377586/	1175	Москва	Труба профильная 60×40×2 мм 3 м
+c8	sku:89440439	1136	Воронеж 1136, др. 1128	Профнастил С8 0,4 мм 1200×2000 мм RAL 8017
+w50x200_pine	https://lemanapro.ru/product/doska-nestroganaya-impregnirovannaya-50x200x3000-mm-hvoya-sort-optima-fgis-lk-85108160/	2224	Москва	Доска нестроганая импрегнированная 50×200×3000 мм хвоя Оптима
+connBase	https://luvon.ru/catalog/konnektory/opornyy-konnektor/	1500	luvon.ru	Коннектор опорный для бруса 100×100 LUVON (сталь 2 мм, площадка 170×170×4)
+conn3	https://luvon.ru/catalog/konnektory/uglovoy-konnektor/	2200	luvon.ru	Коннектор угловой для бруса 100×100 LUVON
+conn4	https://luvon.ru/catalog/konnektory/4kh-luchevoy-konnektor/	2700	luvon.ru	4-лучевой коннектор для бруса 100×100 LUVON
+connS	https://luvon.ru/catalog/konnektory/konnektor-dlya-brusa-100kh100-mm-skvoznoy-luvon/	2300	luvon.ru	Коннектор для бруса 100×100 сквозной LUVON
+connJ	https://luvon.ru/catalog/konnektory/tortsevoy-konnektor-50kh100/	900	luvon.ru	Торцевой коннектор для бруса 50×100 LUVON
+woodOilExt	sku:89349658	2231	разные 2231–2340	Лазурь для дерева Linnimax полуматовая прозрачная 2,5 л
+w50x50_pine	https://lemanapro.ru/product/brusok-stroganyy-50x50x3000-mm-hvoya-sort-optima-fgis-lk-81947398/	333	Москва	Брусок строганый 50×50×3000 мм хвоя Оптима
+zinc	https://lemanapro.ru/product/sostav-holodnogo-cinkovaniya-vixen-18820824/	396	Москва	Состав холодного цинкования Vixen 520 мл

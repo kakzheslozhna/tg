@@ -1,0 +1,10 @@
+import {chromium} from 'playwright-core';
+const CH=process.env.HOME+'/Library/Caches/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-mac-arm64/chrome-headless-shell';
+const b=await chromium.launch({executablePath:CH,args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']});const p=await b.newPage({viewport:{width:1470,height:844}});
+await p.goto('file:///Users/egor/Documents/dacha/besedka/index.html');await p.waitForTimeout(3000);
+const y0=await p.evaluate(()=>App.viewer.camY());
+for(let i=0;i<10;i++)await p.evaluate(()=>window.__nativeLift(-40));await p.waitForTimeout(900);const y1=await p.evaluate(()=>App.viewer.camY());
+await p.keyboard.press('r');await p.keyboard.press('r');await p.waitForTimeout(900);const y2=await p.evaluate(()=>App.viewer.camY());
+const box=await p.locator('#gz-dn').boundingBox();await p.mouse.move(box.x+box.width/2,box.y+box.height/2);await p.mouse.down();await p.waitForTimeout(700);await p.mouse.up();await p.waitForTimeout(800);const y3=await p.evaluate(()=>App.viewer.camY());
+await p.mouse.move(700,400);await p.keyboard.down('Alt');for(let i=0;i<8;i++)await p.mouse.wheel(0,30);await p.keyboard.up('Alt');await p.waitForTimeout(900);const y4=await p.evaluate(()=>App.viewer.camY());
+console.log('camY start',y0.toFixed(2),'after 3-finger up(fingers↑ → camera down)',y1.toFixed(2),'after R×2',y2.toFixed(2),'after ▼ hold',y3.toFixed(2),'after ⌥+wheel',y4.toFixed(2));await b.close();

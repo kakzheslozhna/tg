@@ -1,0 +1,12 @@
+import {chromium} from 'playwright-core';
+const CH=process.env.HOME+'/Library/Caches/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-mac-arm64/chrome-headless-shell';
+const b=await chromium.launch({executablePath:CH,args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']});const p=await b.newPage({viewport:{width:1470,height:844}});
+const errs=[];p.on('pageerror',e=>errs.push(e.message));
+await p.goto('file:///Users/egor/Documents/dacha/besedka/index.html');await p.waitForTimeout(4000);
+await p.evaluate(()=>{const t=[...document.querySelectorAll('#tabs [data-t]')].find(x=>x.dataset.t==='calc');t.click();});
+const t0=await p.evaluate(()=>document.getElementById('tab-body').innerText.includes('Считаю'));await p.waitForTimeout(9000);
+const t1=await p.evaluate(()=>({pending:document.getElementById('tab-body').innerText.includes('Считаю'),mat:/Всего за 30 лет/.test(document.getElementById('tab-body').innerText),base:/Плиты \+ анкеры/.test(document.getElementById('tab-body').innerText)}));
+await p.evaluate(()=>document.querySelector('#tabs [data-t="bom"]').click());await p.waitForTimeout(9000);
+const t2=await p.evaluate(()=>{const s=[...document.querySelectorAll('#tab-body [data-price]')];return{total:s.length,pending:s.filter(e=>e.textContent==='…').length,sample:s.slice(0,3).map(e=>e.textContent)};});
+const t3=await p.evaluate(()=>({chips:document.querySelector('#c-cut')&&document.querySelector('#c-cut').innerText,sug:App.sug&&App.sug.length,worker:App.Q.worker()}));
+console.log('calc сразу «считаю»:',t0,'потом:',JSON.stringify(t1),'\nсмета ценники:',JSON.stringify(t2),'\nподсказки:',JSON.stringify(t3),'\nошибки',errs.slice(0,3));await b.close();

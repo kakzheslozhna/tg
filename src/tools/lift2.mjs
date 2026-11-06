@@ -1,0 +1,10 @@
+import {chromium} from 'playwright-core';
+const CH=process.env.HOME+'/Library/Caches/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-mac-arm64/chrome-headless-shell';
+const b=await chromium.launch({executablePath:CH,args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']});const p=await b.newPage({viewport:{width:1470,height:844}});
+await p.goto('file:///Users/egor/Documents/dacha/besedka/index.html');await p.waitForTimeout(3000);
+const y0=await p.evaluate(()=>App.viewer.camY());
+await p.evaluate(()=>{const c=document.querySelector('#three canvas');for(let i=0;i<8;i++)c.dispatchEvent(new WheelEvent('wheel',{deltaY:30,deltaX:0,altKey:true,clientX:700,clientY:400,bubbles:true,cancelable:true}));});
+await p.waitForTimeout(900);const y1=await p.evaluate(()=>App.viewer.camY());
+await p.evaluate(()=>{const c=document.querySelector('#three canvas');for(let i=0;i<8;i++)c.dispatchEvent(new WheelEvent('wheel',{deltaY:-30,deltaX:0,altKey:true,clientX:700,clientY:400,bubbles:true,cancelable:true}));});
+await p.waitForTimeout(900);const y2=await p.evaluate(()=>App.viewer.camY());
+console.log('⌥+два пальца вверх (deltaY>0):',y0.toFixed(2),'→',y1.toFixed(2),' вниз:',y2.toFixed(2));await b.close();

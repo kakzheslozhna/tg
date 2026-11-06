@@ -1,0 +1,12 @@
+import {chromium} from 'playwright-core';
+const CH=process.env.HOME+'/Library/Caches/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-mac-arm64/chrome-headless-shell';
+const b=await chromium.launch({executablePath:CH,args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']});const p=await b.newPage({viewport:{width:1470,height:844}});
+const errs=[];p.on('pageerror',e=>errs.push(e.message));p.on('console',m=>{if(m.type()==='error')errs.push(m.text())});
+await p.goto('file:///Users/egor/Documents/dacha/besedka/index.html');await p.waitForTimeout(3500);
+await p.evaluate(()=>{localStorage.clear();App.hintSeen=true;document.getElementById('hint').hidden=true;Object.assign(App.cfg,{win:'pvc',light:'belt'});document.querySelector('#config [data-type="gable"]').click();});await p.waitForTimeout(2500);
+await p.screenshot({path:'../shots/m_main.png'});
+await p.evaluate(()=>App.viewer.setExplode(0.6));await p.waitForTimeout(800);await p.screenshot({path:'../shots/m_explode.png'});
+await p.evaluate(()=>App.viewer.setExplode(0));
+await p.evaluate(()=>{const i=App.model.steps.findIndex(s=>s.id==='sides');App.viewer.setStep(i-1);App.viewer.setStep(i,false);});await p.waitForTimeout(350);await p.screenshot({path:'../shots/m_anim.png'});
+await p.waitForTimeout(2500);await p.screenshot({path:'../shots/m_anim_end.png'});
+console.log('errors',errs.slice(0,4));await b.close();
